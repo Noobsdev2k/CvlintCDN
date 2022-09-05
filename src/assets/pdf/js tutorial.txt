@@ -1,0 +1,36 @@
+*name là tên khai báo trong const, let, var
+typedof(name) trả về định dạng của khai báo
+name.toString() trả về giá trị kiểu string
+parseInt(name) chuyển kiểu dử liệu từ string sang number
+parseFloat(name) chuyển kiểu dử liệu từ string sang float
+name.toFixed()  sẽ chuyển đổi một số thành kiểu chuỗi, giữ lại số chữ số thập phân do người dùng xác định.
+name.lenght trả về độ dài của chuổi
+name.indexof('khóa')tìm kiếm một phần tử trong mảng dựa vào giá trị của phần tử, hàm sẽ trả về vị trí và trả về -1 nếu không thấy
+name.lastindexof('khóa')tương tự indexof nhưng dùng để tìm kiếm phần tử cuối cùng trong mảng thõa mãn điều kiện cần tìm. 
+name.slice(khởi đầu, kết thúc) đây là hàm dùng để trích xuất một số phần tử trong mảng js. Hàm sẽ trả về một mảng mới, còn mảng cũ thì không bị ảnh hưởng
+name.substr(vtđầu, độ dài)tương tự slice nhưng khác giá trị đưa vào
+name.toUppercase()Phương thức sẽ trả về chuỗi in hoa.
+name.toLowercase()Phương thức sẽ trả về chuỗi in thường.
+name.concat(giá trị cần nối)đây là hàm dùng để nối các mảng lại với nhau thành một mảng mới.
+name.trim()Phương thức sẽ trả về chuỗi với các khoảng trắng ở đầu và cuối chuỗi đã bị loại bỏ.
+name.charAT()trả về kí tự nằm ở vt đấy
+name.split()Phương thức sẽ trả về một mảng mới
+name.map()  hàm dùng để lặp qua các phần tử của mảng và cho phép xử lý giá trị của phần tử đó.
+name.filter()hàm dùng để lặp qua các phần tử trong mảng, dùng để lọc các phần tử trong mảng theo một điều kiện nào đó.
+
+Async - khai báo một hàm bất đồng bộ (async function someName(){...}).
+
+Tự động biến đổi một hàm thông thường thành một Promise.
+Khi gọi tới hàm async nó sẽ xử lý mọi thứ và được trả về kết quả trong hàm của nó.
+Async cho phép sử dụng Await.
+
+Await - tạm dừng việc thực hiện các hàm async. (Var result = await someAsyncCall ()😉.
+
+Khi được đặt trước một Promise, nó sẽ đợi cho đến khi Promise kết thúc và trả về kết quả.
+Await chỉ làm việc với Promises, nó không hoạt động với callbacks.
+Await chỉ có thể được sử dụng bên trong các function async.
+
+usestate dùng để lấy dữ liệu để sử dụng phải sử dụng props
+useEffect dùng để callback dử liệu sử dụng để đóng mở, dùng lấy data ngon
+
+npm i react-download-link the download
