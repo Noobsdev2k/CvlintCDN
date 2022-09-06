@@ -8,7 +8,7 @@ const Header = ({ changeTheme, currentTheme }) => {
     <header className="header" id="header">
       <nav className="nav container">
         <Link to="/" className="nav_logo">
-          Ansel
+          Portfolio
         </Link>
         <div className="nav_menu">
           <ul className="nav_list">
