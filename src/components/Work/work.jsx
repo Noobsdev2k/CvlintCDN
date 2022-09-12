@@ -51,12 +51,7 @@ const Work = () => {
         {items.map((item, index) => {
           return (
             <div className="work_card" key={index}>
-              <img
-                src={item.img}
-                height="300"
-                alt="work_img"
-                className="work_img"
-              />
+              <img src={item.img} alt="work_img" className="work_img" />
               <h3 className="work_title">{item.title}</h3>
               <Link to="/work" className="work_button">
                 Demo <i className="bx bx-right-arrow-alt work_icon"></i>
