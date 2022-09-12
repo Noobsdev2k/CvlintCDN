@@ -24,6 +24,7 @@
   border-radius: 1rem;
   margin-bottom: 0.75rem;
   height: 200px;
+  width: 100%;
   object-fit: cover;
 }
 .work_title {
